@@ -1,0 +1,855 @@
+<html>
+	<head>
+	<link rel="SHORTCUT ICON" href="images/compal-wbe-logo.ico"/>
+	<meta name="Generator" content="" />
+	<meta name="Author" content="haco 吳淑玲 hacodog@gmail.com" />
+    <meta name="copyright" content="本網頁著作所有">
+	<meta name="Keywords" content="仁寶園地" />
+	<meta name="Description" content="這是屬於仁寶人的園地" />
+	<title>仁寶園地影像空間slideshow | Galleriffic | Thumbnail rollover effects and slideshow crossfades</title>
+	
+		<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+
+		<link rel="stylesheet" href="css/basic.css" type="text/css" />
+		<link rel="stylesheet" href="css/galleriffic-2imagess.css" type="text/css" />
+		<script type="text/javascript" src="js/jquery-1.3.2.js"></script>
+		<script type="text/javascript" src="js/jquery.galleriffic.js"></script>
+		<script type="text/javascript" src="js/jquery.opacityrollover.js"></script>
+		<!-- We only want the thunbnails to display when javascript is disabled -->
+		<script type="text/javascript">
+document.write('<style>.noscript { display: none; }</style>');
+function MM_openBrWindow(theURL,winName,features) { //v2.0
+  window.open(theURL,winName,features);
+}
+        </script>
+	</head>
+<!--點小圖連結大圖-->
+	<SCRIPT LANGUAGE="JavaScript">
+<!--
+var NS = (navigator.appName == "Netscape") ? 1 : 0;
+var height = screen.height;
+var width = screen.width;
+var leftpos = 0;
+var toppos = 0;
+var myH = 0;
+var myW = 0;
+pic = new Image();
+
+function read(url) {
+  pic = new Image();
+  pic.src = url;
+  setTimeout("view()", 500);
+}
+
+function view() {
+  if (eval(pic).height) {
+    clearTimeout();
+
+    if (NS) {
+      myH = eval(pic).height;
+      myW = eval(pic).width;
+    } else {
+      myH = eval(pic).height + 20;
+      myW = eval(pic).width + 20;
+    }
+    leftpos = width / 2 - myW / 2;
+    toppos = height / 2 - myH / 2;
+
+    ViewWin=window.open("","WIN","width=" + myW + ",height=" + myH + ",left=" + leftpos + ",top=" + toppos + ",scrollbars=yes,resizable=yes,resize=yes");
+    ViewWin.document.open();
+    ViewWin.document.write("<HTML><HEAD><TITLE>view</TITLE></HEAD><BODY><CENTER>\n");
+    ViewWin.document.write("<A HREF=\"javascript:self.close()\;\"><IMG SRC='" + pic.src + "' BORDER=0></A>\n");
+    ViewWin.document.write("</CENTER></BODY></HTML>\n");
+    ViewWin.document.close();
+  } else { setTimeout("view()", 500); }
+}
+//-->
+</SCRIPT>
+<!--點小圖連結大圖結束-->
+
+	<body>
+  <div id="page">
+			<div id="container">
+ 
+				<!-- Start Advanced Gallery Html Containers -->
+				<div id="gallery" class="content">
+					<div id="controls" class="controls"></div>
+					<div class="slideshow-container">
+						<div id="loading" class="loader"></div>
+						<div id="slideshow" class="slideshow"></div>
+					</div>
+					<div id="caption" class="caption-container"></div>
+				</div>
+				<div id="thumbs" class="navigation">
+					<ul class="thumbs noscript">
+<!--圖片列表開始-->
+                        <li><a class="thumb" href="slideshow/3/580/01-1.jpg" title="1.楊庭修│窗戶">
+                                <img src="slideshow/3/75/01-1.jpg" alt="1.楊庭修│窗戶" /></a>
+                          <div class="caption">
+							  <div class="download">
+                              <a href="#"><img src="images/compaldownload.gif" name="Image1" width="126" height="20" id="Image1" onClick="MM_openBrWindow('slideshow/3/01-1.jpg','影像空間','resizable=yes,width=1024,height=600')">
+                              </a>
+                              </div>
+								<div class="image-title">
+								<div class="image-title-left">&lt;窗戶&gt;</div>
+								<div class="image-title-name">楊庭修│機工一部</div>
+								</div>
+							<div class="image-desc">
+                            <div class="image-desc-left">用黑白底片拍攝。我阿嬤90幾歲了，已經沒有力氣出門買菜或找朋友聊天，透過窗戶觀察街上人們的生活是她少少的娛樂之一。</div>
+                            </div>
+						  </div>
+						</li>
+                        
+                        <li><a class="thumb" href="slideshow/3/580/01-2.jpg" title="2.楊庭修│倒影">
+                                <img src="slideshow/3/75/01-2.jpg" alt="2.楊庭修│倒影" /></a>
+                          <div class="caption">
+							  <div class="download">
+                              <a href="#"><img src="images/compaldownload.gif" name="Image1" width="126" height="20" id="Image1" onClick="MM_openBrWindow('slideshow/3/01-2.jpg','影像空間','resizable=yes,width=1024,height=600')">
+                              </a>
+                              </div>
+								<div class="image-title">
+								<div class="image-title-left">&lt;倒影&gt;</div>
+								<div class="image-title-name">楊庭修│機工一部</div>
+								</div>
+							<div class="image-desc">
+                            <div class="image-desc-left">透過湖面的倒影可以看到樹的另一種角度。</div>
+                            </div>
+						  </div>
+						</li>
+                        
+                        
+                        
+                             <li><a class="thumb" href="slideshow/3/580/02-1.jpg" title="3.楊膳瑋│海洋公園海豚表演">
+                                <img src="slideshow/3/75/02-1.jpg" alt="3.楊膳瑋│海洋公園海豚表演" /></a>
+                          <div class="caption">
+							  <div class="download">
+							  <a href="#"><img src="images/compaldownload.gif" name="Image1" width="126" height="20" id="Image1" onClick="MM_openBrWindow('slideshow/3/02-1.jpg','影像空間','resizable=yes,width=1024,height=600')">
+                              </a>
+							  </div>
+								<div class="image-title">
+								<div class="image-title-left">&lt;海洋公園海豚表演&gt;</div>
+								<div class="image-title-name">楊膳瑋│機構研發部</div>
+								</div>
+							<div class="image-desc">
+                            <div class="image-desc-left">可愛友善的海豚，隨著表演人員的指令做出優美的動作與任務，以及美麗的體態，精采的表演。</div>
+                            </div>
+						  </div>
+						</li>
+                        
+                        <li><a class="thumb" href="slideshow/3/580/02-2.jpg" title="4.楊膳瑋│夏蟬">
+                                <img src="slideshow/3/75/02-2.jpg" alt="4.楊膳瑋│夏蟬" /></a>
+                          <div class="caption">
+							  <div class="download">
+							  <a href="#"><img src="images/compaldownload.gif" name="Image1" width="126" height="20" id="Image1" onClick="MM_openBrWindow('slideshow/3/02-2.jpg','影像空間','resizable=yes,width=1024,height=600')">
+                              </a>
+							  </div>
+								<div class="image-title">
+								<div class="image-title-left">&lt;夏蟬&gt;</div>
+								<div class="image-title-name">楊膳瑋│機構研發部</div>
+								</div>
+							<div class="image-desc">
+                            <div class="image-desc-left">炎熱的天氣，躲在樹下的蟬，與光影的結合，型成美麗的一幅畫。</div>
+                            </div>
+						  </div>
+						</li>
+                        
+                        <li><a class="thumb" href="slideshow/3/580/03-2.jpg" title="5.劉秋玲│晨曦中的松雪樓">
+                                <img src="slideshow/3/75/03-2.jpg" alt="5.陳彥臻│晨曦中的松雪樓" /></a>
+                          <div class="caption">
+							  <div class="download">
+							  <a href="#"><img src="images/compaldownload.gif" name="Image1" width="126" height="20" id="Image1" onClick="MM_openBrWindow('slideshow/3/03-2.jpg','影像空間','resizable=yes,width=1024,height=600')">
+                              </a>
+							  </div>
+								<div class="image-title">
+								<div class="image-title-left">&lt;晨曦中的松雪樓&gt;</div>
+								<div class="image-title-name">劉秋玲│六標準差執行小組</div>
+								</div>
+							<div class="image-desc">
+                            <div class="image-desc-left">當人們專注著日出的美景時，一旁的〔松雪樓〕靜靜地接受晨曦的洗滌與雲彩共創豐富的色溫。</div>
+                            </div>
+						  </div>
+						</li>
+                        
+                        <li><a class="thumb" href="slideshow/3/580/03-1.jpg" title="6.劉秋玲│七星潭-日光海">
+                                <img src="slideshow/3/75/03-1.jpg" alt="7.劉秋玲│七星潭-日光海" /></a>
+                          <div class="caption">
+							  <div class="download">
+							  <a href="#"><img src="images/compaldownload.gif" name="Image1" width="126" height="20" id="Image1" onClick="MM_openBrWindow('slideshow/3/03-1.jpg','影像空間','resizable=yes,width=1024,height=600')">
+                              </a>
+							  </div>
+								<div class="image-title">
+								<div class="image-title-left">&lt;七星潭-日光海&gt;</div>
+								<div class="image-title-name">劉秋玲│六標準差執行小組</div>
+								</div>
+							<div class="image-desc">
+                            <div class="image-desc-left">光線從林縫中撒下，神奇地療癒了我們的身心靈，就像小精靈們正在告訴你：「一切都會越來越好的！」</div>
+                            </div>
+						  </div>
+						</li>
+                        
+                        <li><a class="thumb" href="slideshow/3/580/04-1.jpg" title="7.吳柏欣│澳門巴黎人">
+                                <img src="slideshow/3/75/04-1.jpg" alt="7.吳柏欣│澳門巴黎人" /></a>
+                          <div class="caption">
+							  <div class="download">
+						      <a href="#"><img src="images/compaldownload.gif" name="Image1" width="126" height="20" id="Image1" onClick="MM_openBrWindow('slideshow/3/04-1.jpg','影像空間','resizable=yes,width=1024,height=600')">
+                              </a>
+							  </div>
+								<div class="image-title">
+								<div class="image-title-left">&lt;澳門巴黎人&gt;</div>
+								<div class="image-title-name">吳柏欣│DQA1三部</div>
+								</div>
+							<div class="image-desc">
+                            <div class="image-desc-left">澳門巴黎人是澳門金沙度假區知名酒店度假村之一。想體驗巴黎人的感受，不用遠赴法國，到澳門巴黎人酒店也可以！</div>
+                            </div>
+						  </div>
+						</li>
+                                                
+                        <li><a class="thumb" href="slideshow/3/580/04-2.jpg" title="8.吳柏欣│龍門石窟">
+                                <img src="slideshow/3/75/04-2.jpg" alt="8.吳柏欣│龍門石窟" /></a>
+                          <div class="caption">
+							  <div class="download">
+							  <a href="#"><img src="images/compaldownload.gif" name="Image1" width="126" height="20" id="Image1" onClick="MM_openBrWindow('slideshow/3/04-2.jpg','影像空間','resizable=yes,width=1024,height=600')">
+                              </a>
+							  </div>
+								<div class="image-title">
+								<div class="image-title-left">&lt;龍門石窟&gt;</div>
+								<div class="image-title-name">吳柏欣│DQA1三部</div>
+								</div>
+							<div class="image-desc">
+                            <div class="image-desc-left">龍門石窟位於中國河南省洛陽市，是中國著名的三大石刻藝術寶庫之一，同時被譽為世界最偉大的古典藝術寶庫之一，與甘肅敦煌莫高窟、山西大同雲崗石窟等中國著名石窟列為世界文化遺產。</div>
+                            </div>
+						  </div>
+						</li>
+                        
+                        <li><a class="thumb" href="slideshow/3/580/04-3.jpg" title="9.吳柏欣│近距離的駱駝">
+                                <img src="slideshow/3/75/04-3.jpg" alt="9.吳柏欣│近距離的駱駝" /></a>
+                          <div class="caption">
+							  <div class="download">
+							  <a href="#"><img src="images/compaldownload.gif" name="Image1" width="126" height="20" id="Image1" onClick="MM_openBrWindow('slideshow/3/04-3.jpg','影像空間','resizable=yes,width=1024,height=600')">
+                              </a>
+							  </div>
+								<div class="image-title">
+								<div class="image-title-left">&lt;近距離的駱駝&gt;</div>
+								<div class="image-title-name">吳柏欣│DQA1三部</div>
+								</div>
+							<div class="image-desc">
+                            <div class="image-desc-left">在鳴沙山月牙泉這傳奇的沙漠中體驗騎乘駱駝的樂趣</div>
+                            </div>
+						  </div>
+						</li>
+                        
+                        <li><a class="thumb" href="slideshow/3/580/05-1.jpg" title="10.邱詩儒│山">
+                                <img src="slideshow/3/75/05-1.jpg" alt="10.邱詩儒│山" /></a>
+                          <div class="caption">
+							  <div class="download">
+							  <a href="#"><img src="images/compaldownload.gif" name="Image1" width="126" height="20" id="Image1" onClick="MM_openBrWindow('slideshow/3/05-1.jpg','影像空間','resizable=yes,width=1024,height=600')">
+                              </a>
+							  </div>
+								<div class="image-title">
+								<div class="image-title-left">&lt;山&gt;</div>
+								<div class="image-title-name">邱詩儒│專案課</div>
+								</div>
+							<div class="image-desc">
+                            <div class="image-desc-left">不用急，不必趕，因為山一直都在。</div>
+                            </div>
+						  </div>
+						</li>
+                        
+                        <li><a class="thumb" href="slideshow/3/580/05-2.jpg" title="11.邱詩儒│摩天輪">
+                                <img src="slideshow/3/75/05-2.jpg" alt="11.邱詩儒│摩天輪" /></a>
+                          <div class="caption">
+							  <div class="download">
+							  <a href="#"><img src="images/compaldownload.gif" name="Image1" width="126" height="20" id="Image1" onClick="MM_openBrWindow('slideshow/3/05-2.jpg','影像空間','resizable=yes,width=1024,height=600')">
+                              </a>
+							  </div>
+								<div class="image-title">
+								<div class="image-title-left">&lt;摩天輪&gt;</div>
+								<div class="image-title-name">邱詩儒│專案課</div>
+								</div>
+							<div class="image-desc">
+                            <div class="image-desc-left">摩天輪慢慢轉動，乘載人們一步步找到心中的幸福。</div>
+                            </div>
+						  </div>
+						</li>
+                        
+                        <li><a class="thumb" href="slideshow/3/580/06-1.jpg" title="12.藍文欣│太平洋的日出">
+                                <img src="slideshow/3/75/06-1.jpg" alt="12.藍文欣│太平洋的日出" /></a>
+                          <div class="caption">
+							  <div class="download">
+							  <a href="#"><img src="images/compaldownload.gif" name="Image1" width="126" height="20" id="Image1" onClick="MM_openBrWindow('slideshow/3/06-1.jpg','影像空間','resizable=yes,width=1024,height=600')">
+                              </a>
+							  </div>
+								<div class="image-title">
+								<div class="image-title-left">&lt;太平洋的日出&gt;</div>
+								<div class="image-title-name">藍文欣│副董事長室</div>
+								</div>
+							<div class="image-desc">
+                            <div class="image-desc-left">望著太陽由海平面緩緩升起，格外讓人想記住這片生活在城市中罕見的風景。</div>
+                            </div>
+						  </div>
+						</li>
+                        
+                        <li><a class="thumb" href="slideshow/3/580/06-2.jpg" title="13.藍文欣│日月潭-向山遊客中心">
+                                <img src="slideshow/3/75/06-2.jpg" alt="13.藍文欣│日月潭-向山遊客中心" /></a>
+                          <div class="caption">
+							  <div class="download">
+							  <a href="#"><img src="images/compaldownload.gif" name="Image1" width="126" height="20" id="Image1" onClick="MM_openBrWindow('slideshow/3/06-2.jpg','影像空間','resizable=yes,width=1024,height=600')">
+                              </a>
+							  </div>
+								<div class="image-title">
+								<div class="image-title-left">&lt;日月潭-向山遊客中心&gt;</div>
+								<div class="image-title-name">藍文欣│副董事長室</div>
+								</div>
+							<div class="image-desc">
+                            <div class="image-desc-left">由日本知名建築師團紀彥設計規劃的南投日月潭向山遊客中心，簡約的清水模建築，展現了與大自然平衡之美。 </div>
+                            </div>
+						  </div>
+						</li>
+                        
+                        <li><a class="thumb" href="slideshow/3/580/07-1.jpg" title="14.林宏杰│仁寶的天空">
+                                <img src="slideshow/3/75/07-1.jpg" alt="14.林宏杰│仁寶的天空" /></a>
+                          <div class="caption">
+							  <div class="download">
+							  <a href="#"><img src="images/compaldownload.gif" name="Image1" width="126" height="20" id="Image1" onClick="MM_openBrWindow('slideshow/3/07-1.jpg','影像空間','resizable=yes,width=1024,height=600')">
+                              </a>
+							  </div>
+								<div class="image-title">
+								<div class="image-title-left">&lt;仁寶的天空&gt;</div>
+								<div class="image-title-name">林宏杰│產品九處專案九部</div>
+								</div>
+							<div class="image-desc">
+                            <div class="image-desc-left"></div>
+                            </div>
+						  </div>
+						</li>
+                                           
+                        <li><a class="thumb" href="slideshow/3/580/07-2.jpg" title="15.林宏杰│天元宮櫻花盛況">
+                                <img src="slideshow/3/75/07-2.jpg" alt="15.林宏杰│天元宮櫻花盛況" /></a>
+                          <div class="caption">
+							  <div class="download">
+							  <a href="#"><img src="images/compaldownload.gif" name="Image1" width="126" height="20" id="Image1" onClick="MM_openBrWindow('slideshow/3/07-2.jpg','影像空間','resizable=yes,width=1024,height=600')">
+                              </a>
+							  </div>
+								<div class="image-title">
+								<div class="image-title-left">&lt;天元宮櫻花盛況&gt;</div>
+								<div class="image-title-name">林宏杰│產品九處專案九部</div>
+								</div>
+							<div class="image-desc">
+                            <div class="image-desc-left"></div>
+                            </div>
+						  </div>
+						</li>
+                        
+                        <li><a class="thumb" href="slideshow/3/580/08-1.jpg" title="16.張尚元│清水晨曦">
+                                <img src="slideshow/3/75/08-1.jpg" alt="16.張尚元│清水晨曦" /></a>
+                          <div class="caption">
+							  <div class="download">
+							  <a href="#"><img src="images/compaldownload.gif" name="Image1" width="126" height="20" id="Image1" onClick="MM_openBrWindow('slideshow/3/08-1.jpg','影像空間','resizable=yes,width=1024,height=600')">
+                              </a>
+							  </div>
+								<div class="image-title">
+								<div class="image-title-left">&lt;清水晨曦&gt;</div>
+								<div class="image-title-name">張尚元│軟體九部</div>
+								</div>
+							<div class="image-desc">
+                            <div class="image-desc-left">清水斷崖的清晨，微風徐徐拂過臉龐，配上呼之欲出的晨曦，水天一色的景象令人心曠神怡。</div>
+                            </div>
+						  </div>
+						</li>
+                        
+                        <li><a class="thumb" href="slideshow/3/580/08-2.jpg" title="17.張尚元│歸途">
+                                <img src="slideshow/3/75/08-2.jpg" alt="17.張尚元│歸途" /></a>
+                          <div class="caption">
+							  <div class="download">
+							  <a href="#"><img src="images/compaldownload.gif" name="Image1" width="126" height="20" id="Image1" onClick="MM_openBrWindow('slideshow/3/08-2.jpg','影像空間','resizable=yes,width=1024,height=600')">
+                              </a>
+							  </div>
+								<div class="image-title">
+								<div class="image-title-left">&lt;歸途&gt;</div>
+								<div class="image-title-name">張尚元│軟體九部</div>
+								</div>
+							<div class="image-desc">
+                            <div class="image-desc-left">延伸的鐵道，是回家的路，搭上返家的火車，心也安靜了下來。</div>
+                            </div>
+						  </div>
+						</li>
+                        
+                        <li><a class="thumb" href="slideshow/3/580/09-1.jpg" title="18.陳則尉│綠島睡美人">
+                                <img src="slideshow/3/75/09-1.jpg" alt="18.陳則尉│綠島睡美人" /></a>
+                          <div class="caption">
+							  <div class="download">
+							  <a href="#"><img src="images/compaldownload.gif" name="Image1" width="126" height="20" id="Image1" onClick="MM_openBrWindow('slideshow/3/09-1.jpg','影像空間','resizable=yes,width=1024,height=600')">
+                              </a>
+							  </div>
+								<div class="image-title">
+								<div class="image-title-left">&lt;綠島睡美人&gt;</div>
+								<div class="image-title-name">陳則尉│DQA1一部</div>
+								</div>
+							<div class="image-desc">
+                            <div class="image-desc-left">之前去綠島打工換宿一個月，跟著當地人的步伐，探尋了一般遊客無法如此靠近的睡美人，由於綠島火山口壁因為抗風化程度不同，也形成周圍一系列的地質景觀。從海參坪上小長城遠眺，位在海岸邊有一處神似側臥在海岸邊沉睡女人的地質景觀，被稱為「睡美人岩」。</div>
+                            </div>
+						  </div>
+						</li>            
+                        
+                        <li><a class="thumb" href="slideshow/3/580/010-1.jpg" title="19.施彥閤│拉拉山夕陽">
+                                <img src="slideshow/3/75/010-1.jpg" alt="19.施彥閤│拉拉山夕陽" /></a>
+                          <div class="caption">
+							  <div class="download">
+							  <a href="#"><img src="images/compaldownload.gif" name="Image1" width="126" height="20" id="Image1" onClick="MM_openBrWindow('slideshow/3/010-1.jpg','影像空間','resizable=yes,width=1024,height=600')">
+                              </a>
+							  </div>
+								<div class="image-title">
+								<div class="image-title-left">&lt;拉拉山夕陽&gt;</div>
+								<div class="image-title-name">施彥閤│無線通訊三部</div>
+								</div>
+							<div class="image-desc">
+                            <div class="image-desc-left">在高山上看夕陽，伴隨著枝葉同框。</div>
+                            </div>
+						  </div>
+						</li>
+                        
+                        <li><a class="thumb" href="slideshow/3/580/010-2.jpg" title="20.施彥閤│爆炸櫻花">
+                                <img src="slideshow/3/75/010-2.jpg" alt="20.施彥閤│爆炸櫻花" /></a>
+                          <div class="caption">
+							  <div class="download">
+							  <a href="#"><img src="images/compaldownload.gif" name="Image1" width="126" height="20" id="Image1" onClick="MM_openBrWindow('slideshow/3/010-2.jpg','影像空間','resizable=yes,width=1024,height=600')">
+                              </a>
+							  </div>
+								<div class="image-title">
+								<div class="image-title-left">&lt;爆炸櫻花&gt;</div>
+								<div class="image-title-name">施彥閤│無線通訊三部</div>
+								</div>
+							<div class="image-desc">
+                            <div class="image-desc-left">寶寶出生前最後一次露營，竟然剛好有大片櫻花盛開，老婆拍的不亦樂乎。</div>
+                            </div>
+						  </div>
+						</li>
+                        
+                        <li><a class="thumb" href="slideshow/3/580/010-3.jpg" title="21.施彥閤│黃昏的故鄉">
+                                <img src="slideshow/3/75/010-3.jpg" alt="21.施彥閤│黃昏的故鄉" /></a>
+                          <div class="caption">
+							  <div class="download">
+							  <a href="#"><img src="images/compaldownload.gif" name="Image1" width="126" height="20" id="Image1" onClick="MM_openBrWindow('slideshow/3/010-3.jpg','影像空間','resizable=yes,width=1024,height=600')">
+                              </a>
+							  </div>
+								<div class="image-title">
+								<div class="image-title-left">&lt;黃昏的故鄉&gt;</div>
+								<div class="image-title-name">施彥閤│無線通訊三部</div>
+								</div>
+							<div class="image-desc">
+                            <div class="image-desc-left">每每回到老家，總是會在傍晚時分，走到戶外看看這一大片田景，從小看到大的景色在台北可是沒有機會見到…</div>
+                            </div>
+						  </div>
+						</li>
+                        
+                        <li><a class="thumb" href="slideshow/3/580/011-1.jpg" title="22.楊子慧│無限希望">
+                                <img src="slideshow/3/75/011-1.jpg" alt="22.楊子慧│無限希望" /></a>
+                          <div class="caption">
+							  <div class="download">
+							  <a href="#"><img src="images/compaldownload.gif" name="Image1" width="126" height="20" id="Image1" onClick="MM_openBrWindow('slideshow/3/011-1.jpg','影像空間','resizable=yes,width=1024,height=600')">
+                              </a>
+							  </div>
+								<div class="image-title">
+								<div class="image-title-left">&lt;無限希望&gt;</div>
+								<div class="image-title-name">楊子慧│聲學品質部</div>
+								</div>
+							<div class="image-desc">
+                            <div class="image-desc-left">一望無際的筆直道路搭配著藍天白雲，人生充滿無限希望。</div>
+                            </div>
+						  </div>
+						</li>
+                        
+                        <li><a class="thumb" href="slideshow/3/580/011-2.jpg" title="23.楊子慧│石門大壩">
+                                <img src="slideshow/3/75/011-2.jpg" alt="23.楊子慧│石門大壩" /></a>
+                          <div class="caption">
+							  <div class="download">
+							  <a href="#"><img src="images/compaldownload.gif" name="Image1" width="126" height="20" id="Image1" onClick="MM_openBrWindow('slideshow/3/011-2.jpg','影像空間','resizable=yes,width=1024,height=600')">
+                              </a>
+							  </div>
+								<div class="image-title">
+								<div class="image-title-left">&lt;石門大壩&gt;</div>
+								<div class="image-title-name">楊子慧│聲學品質部</div>
+								</div>
+							<div class="image-desc">
+                            <div class="image-desc-left">壩頂上方俯瞰水庫，湖光山色令人心曠神怡。</div>
+                            </div>
+						  </div>
+						</li>
+                        
+                        <li><a class="thumb" href="slideshow/3/580/012-1.jpg" title="24.田靖熒│少女峰山腰漫步">
+                                <img src="slideshow/3/75/012-1.jpg" alt="24.田靖熒│少女峰山腰漫步" /></a>
+                          <div class="caption">
+							  <div class="download">
+							  <a href="#"><img src="images/compaldownload.gif" name="Image1" width="126" height="20" id="Image1" onClick="MM_openBrWindow('slideshow/3/012-1.jpg','影像空間','resizable=yes,width=1024,height=600')">
+                              </a>
+							  </div>
+								<div class="image-title">
+								<div class="image-title-left">&lt;少女峰山腰漫步&gt;</div>
+								<div class="image-title-name">田靖熒│物聯網事業本部</div>
+								</div>
+							<div class="image-desc">
+                            <div class="image-desc-left">疫情期間格外想念在如畫的山間漫步，大口呼吸新鮮空氣的日子。</div>
+                            </div>
+						  </div>
+						</li>
+                        
+                        <li><a class="thumb" href="slideshow/3/580/012-2.jpg" title="25.田靖熒│少女峰山腰小火車">
+                                <img src="slideshow/3/75/012-2.jpg" alt="25.田靖熒│少女峰山腰小火車" /></a>
+                          <div class="caption">
+							  <div class="download">
+							  <a href="#"><img src="images/compaldownload.gif" name="Image1" width="126" height="20" id="Image1" onClick="MM_openBrWindow('slideshow/3/012-2.jpg','影像空間','resizable=yes,width=1024,height=600')">
+                              </a>
+							  </div>
+								<div class="image-title">
+								<div class="image-title-left">&lt;女峰山腰小火車&gt;</div>
+								<div class="image-title-name">田靖熒│物聯網事業本部</div>
+								</div>
+							<div class="image-desc">
+                            <div class="image-desc-left">看著小火車緩緩地進入視線，又緩緩地離開視線，一切是如此的歲月靜好。</div>
+                            </div>
+						  </div>
+						</li>
+                        
+                        <li><a class="thumb" href="slideshow/3/580/013-1.jpg" title="26.徐治平│7年前的演唱會">
+                                <img src="slideshow/3/75/013-1.jpg" alt="26.徐治平│7年前的演唱會" /></a>
+                          <div class="caption">
+							  <div class="download">
+							  <a href="#"><img src="images/compaldownload.gif" name="Image1" width="126" height="20" id="Image1" onClick="MM_openBrWindow('slideshow/3/013-1.jpg','影像空間','resizable=yes,width=1024,height=600')">
+                              </a>
+							  </div>
+								<div class="image-title">
+								<div class="image-title-left">&lt;7年前的演唱會&gt;</div>
+								<div class="image-title-name">徐治平│DQA1一部</div>
+								</div>
+							<div class="image-desc">
+                            <div class="image-desc-left">因為疫情已經多久沒聽到國外大團的演唱會了，曾經一起聽團的朋友好像也很久沒見了。 </div>
+                            </div>
+						  </div>
+						</li>
+                        
+                        <li><a class="thumb" href="slideshow/3/580/013-2.jpg" title="27.徐治平│光影">
+                                <img src="slideshow/3/75/013-2.jpg" alt="27.徐治平│光影" /></a>
+                          <div class="caption">
+							  <div class="download">
+							  <a href="#"><img src="images/compaldownload.gif" name="Image1" width="126" height="20" id="Image1" onClick="MM_openBrWindow('slideshow/3/013-2.jpg','影像空間','resizable=yes,width=1024,height=600')">
+                              </a>
+							  </div>
+								<div class="image-title">
+								<div class="image-title-left">&lt;光影&gt;</div>
+								<div class="image-title-name">徐治平│DQA1一部</div>
+								</div>
+							<div class="image-desc">
+                            <div class="image-desc-left">台中市古蹟中一扇窗戶的光影，覺得很美就隨手拍了下來。</div>
+                            </div>
+						  </div>
+						</li>
+                        
+                        <li><a class="thumb" href="slideshow/3/580/014-1.jpg" title="28.陳婕妤│尼莫">
+                                <img src="slideshow/3/75/014-1.jpg" alt="28.陳婕妤│尼莫" /></a>
+                          <div class="caption">
+							  <div class="download">
+							  <a href="#"><img src="images/compaldownload.gif" name="Image1" width="126" height="20" id="Image1" onClick="MM_openBrWindow('slideshow/3/014-1.jpg','影像空間','resizable=yes,width=1024,height=600')">
+                              </a>
+							  </div>
+								<div class="image-title">
+								<div class="image-title-left">&lt;尼莫&gt;</div>
+								<div class="image-title-name">陳婕妤│NB機構策略採購二部</div>
+								</div>
+							<div class="image-desc">
+                            <div class="image-desc-left">你們知道小丑魚有改變性別的能力嗎?一生只有一次，一旦變成雌魚就無法轉換成雄魚了喔！</div>
+                            </div>
+						  </div>
+						</li>
+                        
+                        <li><a class="thumb" href="slideshow/3/580/014-2.jpg" title="29.陳婕妤│大稻埕河畔">
+                                <img src="slideshow/3/75/014-2.jpg" alt="29.陳婕妤│大稻埕河畔" /></a>
+                          <div class="caption">
+							  <div class="download">
+							  <a href="#"><img src="images/compaldownload.gif" name="Image1" width="126" height="20" id="Image1" onClick="MM_openBrWindow('slideshow/3/014-2.jpg','影像空間','resizable=yes,width=1024,height=600')">
+                              </a>
+							  </div>
+								<div class="image-title">
+								<div class="image-title-left">&lt;大稻埕河畔&gt;</div>
+								<div class="image-title-name">陳婕妤│NB機構策略採購二部</div>
+								</div>
+							<div class="image-desc">
+                            <div class="image-desc-left">騎著單車享受著徐徐涼風以及夜晚河畔風景，是一件多麼幸福的事啊！</div>
+                            </div>
+						  </div>
+						</li>
+                        
+                        <li><a class="thumb" href="slideshow/3/580/014-3.jpg" title="30.陳婕妤│夕陽下的淡水河">
+                                <img src="slideshow/3/75/014-3.jpg" alt="30.陳婕妤│夕陽下的淡水河" /></a>
+                          <div class="caption">
+							  <div class="download">
+							  <a href="#"><img src="images/compaldownload.gif" name="Image1" width="126" height="20" id="Image1" onClick="MM_openBrWindow('slideshow/3/014-3.jpg','影像空間','resizable=yes,width=1024,height=600')">
+                              </a>
+							  </div>
+								<div class="image-title">
+								<div class="image-title-left">&lt;夕陽下的淡水河&gt;</div>
+								<div class="image-title-name">陳婕妤│NB機構策略採購二部</div>
+								</div>
+							<div class="image-desc">
+                            <div class="image-desc-left">落日餘暉映照在淡水河面上，構成一幅美麗圖畫。</div>
+                            </div>
+						  </div>
+						</li>
+                        
+                        <li><a class="thumb" href="slideshow/3/580/015-3.jpg" title="31.李羿璋│綠島水族箱">
+                                <img src="slideshow/3/75/015-3.jpg" alt="31.李羿璋│綠島水族箱" /></a>
+                          <div class="caption">
+							  <div class="download">
+							  <a href="#"><img src="images/compaldownload.gif" name="Image1" width="126" height="20" id="Image1" onClick="MM_openBrWindow('slideshow/3/015-3.jpg','影像空間','resizable=yes,width=1024,height=600')">
+                              </a>
+							  </div>
+								<div class="image-title">
+								<div class="image-title-left">&lt;綠島水族箱&gt;</div>
+								<div class="image-title-name">李羿璋│產品設計二部</div>
+								</div>
+							<div class="image-desc">
+                            <div class="image-desc-left">初次踏訪綠島時，看見柚子湖生態之豐富，許多礁岩中尚存在著漂亮的珊瑚礁，伴隨著魚群在裡頭恣意悠游，就像一個天然的水族箱一樣。於是我用手機將這個畫面與後面的岩石一起入鏡，記錄下眼前這個美景。 </div>
+                            </div>
+						  </div>
+						</li>
+                        
+                        <li><a class="thumb" href="slideshow/3/580/015-2.jpg" title="32.李羿璋│柚子湖銀河">
+                                <img src="slideshow/3/75/015-2.jpg" alt="32.李羿璋│柚子湖銀河" /></a>
+                          <div class="caption">
+							  <div class="download">
+							  <a href="#"><img src="images/compaldownload.gif" name="Image1" width="126" height="20" id="Image1" onClick="MM_openBrWindow('slideshow/3/015-2.jpg','影像空間','resizable=yes,width=1024,height=600')">
+                              </a>
+							  </div>
+								<div class="image-title">
+								<div class="image-title-left">&lt;柚子湖銀河&gt;</div>
+								<div class="image-title-name">李羿璋│產品設計二部</div>
+								</div>
+							<div class="image-desc">
+                            <div class="image-desc-left">除了白天看到的景色之外，柚子湖的夜晚也令我難忘，記得當時在這裡看到滿天的星星與銀河時，我震懾不已，那星空清晰程度絲毫並不比山上的遜色，也增添了許多平地才有的特色。抬頭就能看到夏季大三角的織女星與牛郎星對望的夜，既應景又令人難忘。</div>
+                            </div>
+						  </div>
+						</li>
+                        
+                        <li><a class="thumb" href="slideshow/3/580/015-1.jpg" title="33.李羿璋│空拍綠島">
+                                <img src="slideshow/3/75/015-1.jpg" alt="33.李羿璋│空拍綠島" /></a>
+                          <div class="caption">
+							  <div class="download">
+							  <a href="#"><img src="images/compaldownload.gif" name="Image1" width="126" height="20" id="Image1" onClick="MM_openBrWindow('slideshow/3/015-1.jpg','影像空間','resizable=yes,width=1024,height=600')">
+                              </a>
+							  </div>
+								<div class="image-title">
+								<div class="image-title-left">&lt;空拍綠島&gt;</div>
+								<div class="image-title-name">李羿璋│產品設計二部</div>
+								</div>
+							<div class="image-desc">
+                            <div class="image-desc-left">在離島那樣空曠且不像都市一樣嘈雜的地方，令人好奇它從上空會看到的樣貌。於時我在牛頭山將空拍機起飛，去尋探附近能拍下的美景。在過程中，我看見一艘旅遊船從附近經過，很喜歡當時從上空看下的畫面所以我將它記錄了</div>
+                            </div>
+						  </div>
+						</li>
+                         <!--
+                        <li><a class="thumb" href="slideshow/3/580/021-1.jpg" title="35.顏家楷│2021不要再相見，2022新年快樂">
+                                <img src="slideshow/3/75/021-1.jpg" alt="35.顏家楷│2021不要再相見，2022新年快樂" /></a>
+                          <div class="caption">
+							  <div class="download">
+							  <a href="#"><img src="images/compaldownload.gif" name="Image1" width="126" height="20" id="Image1" onClick="MM_openBrWindow('slideshow/3/021-1.jpg','影像空間','resizable=yes,width=1024,height=600')">
+                              </a>
+							  </div>
+								<div class="image-title">
+								<div class="image-title-left">&lt;2021不要再相見，2022新年快樂&gt;</div>
+								<div class="image-title-name">顏家楷│專家系統一處 \ 光學軟體部軟體四課</div>
+								</div>
+							<div class="image-desc">
+                            <div class="image-desc-left">在這世俗的框架下，新的一年似乎都要許下些甚麼才是， <br>
+                              在這疫情的2022， <br>
+                              期望的不多，只要求不要比去年遭就好， <br>
+                              那些讓人失落、徬徨、無力的一切，<br>
+                              都能隨著煙火綻放後的煙霧般後會無期。 <br>
+                              新年快樂，工作順利！ </div>
+                            </div>
+						  </div>
+						</li>
+                       
+                        <li><a class="thumb" href="slideshow/3/580/019-3.jpg" title="36.顏家楷│夏季的尾巴">
+                                <img src="slideshow/3/75/019-3.jpg" alt="36.顏家楷│夏季的尾巴" /></a>
+                          <div class="caption">
+							  <div class="download">
+							  <a href="#"><img src="images/compaldownload.gif" name="Image1" width="126" height="20" id="Image1" onClick="MM_openBrWindow('slideshow/3/019-3.jpg','影像空間','resizable=yes,width=1024,height=600')">
+                              </a>
+							  </div>
+								<div class="image-title">
+								<div class="image-title-left">&lt;夏季的尾巴&gt;</div>
+								<div class="image-title-name">顏家楷│專家系統一處 \ 光學軟體部軟體四課</div>
+								</div>
+							<div class="image-desc">
+                            <div class="image-desc-left">天氣轉涼的九月，能開始好好享受夏日夜晚涼風的九月 <br>
+                              在台灣公路的最高點，默默與那銀河許下明年見的約定 。</div>
+                            </div>
+						  </div>
+						</li>
+                        
+                        <li><a class="thumb" href="slideshow/3/580/019-3.jpg" title="37.薛喻文│躲貓貓">
+                                <img src="slideshow/3/75/019-3.jpg" alt="37.薛喻文│躲貓貓" /></a>
+                          <div class="caption">
+							  <div class="download">
+							  <a href="#"><img src="images/compaldownload.gif" name="Image1" width="126" height="20" id="Image1" onClick="MM_openBrWindow('slideshow/3/019-3.jpg','影像空間','resizable=yes,width=1024,height=600')">
+                              </a>
+							  </div>
+								<div class="image-title">
+								<div class="image-title-left">&lt;躲貓貓&gt;</div>
+								<div class="image-title-name">薛喻文│產品二處 \ 專案二部</div>
+								</div>
+							<div class="image-desc">
+                            <div class="image-desc-left">被發現了嗎？！</div>
+                            </div>
+						  </div>
+						</li>
+                        
+                        <li><a class="thumb" href="slideshow/3/580/019-1.jpg" title="38.鄭惟仁│日本若草山煙火">
+                                <img src="slideshow/3/75/019-1.jpg" alt="38.鄭惟仁│日本若草山煙火" /></a>
+                          <div class="caption">
+							  <div class="download">
+							  <a href="#"><img src="images/compaldownload.gif" name="Image1" width="126" height="20" id="Image1" onClick="MM_openBrWindow('slideshow/3/019-1.jpg','影像空間','resizable=yes,width=1024,height=600')">
+                              </a>
+							  </div>
+								<div class="image-title">
+								<div class="image-title-left">&lt;日本若草山煙火&gt;</div>
+								<div class="image-title-name">鄭惟仁│產品九處 \ 軟體應用九部</div>
+								</div>
+							<div class="image-desc">
+                            <div class="image-desc-left">日本奈良的若草山，山的第三重的山頂上，有著前方後圓的巨大鶯塚古墳，古墳會出現的鬼魂帶給人們恐懼，而且還有著如果到明年一月沒有燒山的話會帶來不幸的迷信，燒山是為了安息埋葬於山上古墓中的靈魂所開始的祭典，此為祭典中的煙火節目。</div>
+                            </div>
+						  </div>
+						</li>
+                        
+                        <li><a class="thumb" href="slideshow/3/580/019-2.jpg" title="39.鄭惟仁│漫步雲端">
+                                <img src="slideshow/3/75/019-2.jpg" alt="39.鄭惟仁│漫步雲端" /></a>
+                          <div class="caption">
+							  <div class="download">
+							  <a href="#"><img src="images/compaldownload.gif" name="Image1" width="126" height="20" id="Image1" onClick="MM_openBrWindow('slideshow/3/019-2.jpg','影像空間','resizable=yes,width=1024,height=600')">
+                              </a>
+							  </div>
+								<div class="image-title">
+								<div class="image-title-left">&lt;漫步雲端&gt;</div>
+								<div class="image-title-name">鄭惟仁│產品九處 \ 軟體應用九部</div>
+								</div>
+							<div class="image-desc">
+                            <div class="image-desc-left">開車行經台14甲線往合歡山武嶺，山下豐富的水氣導致濃霧密布，再繼續往山上開穿過低雲後就能看見美麗的雲海，遠方還能看見微微突起的高山，像是汪洋中的孤島。</div>
+                            </div>
+						  </div>
+						</li>
+                        
+                        <li><a class="thumb" href="slideshow/3/580/020-1.jpg" title="40.薛喻文│山月隨人歸">
+                                <img src="slideshow/3/75/020-1.jpg" alt="38.薛喻文│山月隨人歸" /></a>
+                          <div class="caption">
+							  <div class="download">
+							  <a href="#"><img src="images/compaldownload.gif" name="Image1" width="126" height="20" id="Image1" onClick="MM_openBrWindow('slideshow/3/020-1.jpg','影像空間','resizable=yes,width=1024,height=600')">
+                              </a>
+							  </div>
+								<div class="image-title">
+								<div class="image-title-left">&lt;山月隨人歸&gt;</div>
+								<div class="image-title-name">薛喻文│產品二處 \ 專案二部</div>
+								</div>
+							<div class="image-desc">
+                            <div class="image-desc-left">在山林中找回寧靜的自己</div>
+                            </div>
+						  </div>
+						</li>
+                        
+                        <li><a class="thumb" href="slideshow/3/580/020-2.jpg" title="41.薛喻文│追求">
+                                <img src="slideshow/3/75/020-2.jpg" alt="39.薛喻文│追求" /></a>
+                          <div class="caption">
+							  <div class="download">
+							  <a href="#"><img src="images/compaldownload.gif" name="Image1" width="126" height="20" id="Image1" onClick="MM_openBrWindow('slideshow/3/020-2.jpg','影像空間','resizable=yes,width=1024,height=600')">
+                              </a>
+							  </div>
+								<div class="image-title">
+								<div class="image-title-left">&lt;追求&gt;</div>
+								<div class="image-title-name">薛喻文│產品二處 \ 專案二部</div>
+								</div>
+							<div class="image-desc">
+                            <div class="image-desc-left">我們將手伸長，希望能夠搆的到天</div>
+                            </div>
+						  </div>
+						</li>
+                        
+                        <li><a class="thumb" href="slideshow/3/580/020-3.jpg" title="42.薛喻文│開會">
+                                <img src="slideshow/3/75/020-3.jpg" alt="38.薛喻文│產品二處 \ 專案二部│開會" /></a>
+                          <div class="caption">
+							  <div class="download">
+							  <a href="#"><img src="images/compaldownload.gif" name="Image1" width="126" height="20" id="Image1" onClick="MM_openBrWindow('slideshow/3/020-3.jpg','影像空間','resizable=yes,width=1024,height=600')">
+                              </a>
+							  </div>
+								<div class="image-title">
+								<div class="image-title-left">&lt;開會&gt;</div>
+								<div class="image-title-name">薛喻文│產品二處 \ 專案二部</div>
+								</div>
+							<div class="image-desc">
+                            <div class="image-desc-left">總有人心不在焉</div>
+                            </div>
+						  </div>
+						</li>
+                                                                
+圖片列表結束-->
+ 
+					</ul>
+		    </div>
+				<div style="clear: both;"></div>
+			</div>
+		</div>
+
+		<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				// We only want these styles applied when javascript is enabled
+				$('div.navigation').css({'width' : '273px', 'float' : 'right'});
+				$('div.content').css('display', 'block');
+ 
+				// Initially set opacity on thumbs and add
+				// additional styling for hover effect on thumbs
+				var onMouseOutOpacity = 0.67;
+				$('#thumbs ul.thumbs li').opacityrollover({
+					mouseOutOpacity:   onMouseOutOpacity,
+					mouseOverOpacity:  1.0,
+					fadeSpeed:         'fast',
+					exemptionSelector: '.selected'
+				});
+				
+				// Initialize Advanced Galleriffic Gallery
+				var gallery = $('#thumbs').galleriffic({
+					delay:                     2500,
+					numThumbs:                 15,
+					preloadAhead:              10,
+					enableTopPager:            true,
+					enableBottomPager:         true,
+					maxPagesToShow:            7,
+					imageContainerSel:         '#slideshow',
+					controlsContainerSel:      '#controls',// The CSS selector for the element within which the slideshow controls should be rendered
+					captionContainerSel:       '#caption',// The CSS selector for the element within which the captions should be rendered
+					loadingContainerSel:       '#loading',// The CSS selector for the element within which should be shown when an image is loading
+					renderSSControls:          true,
+					renderNavControls:         true,
+					playLinkText:              '自動播放',
+					pauseLinkText:             '暫停播放',
+					prevLinkText:              '&lsaquo; 上一張',
+					nextLinkText:              '下一張 &rsaquo;',
+					nextPageLinkText:          '&rsaquo;',
+					prevPageLinkText:          '&lsaquo;',
+					enableHistory:             false,
+					autoStart:                 false,
+					syncTransitions:           true,// 
+					defaultTransitionDuration: 900,
+					onSlideChange:             function(prevIndex, nextIndex) {
+						// 'this' refers to the gallery, which is an extension of $('#thumbs')
+						this.find('ul.thumbs').children()
+							.eq(prevIndex).fadeTo('fast', onMouseOutOpacity).end()
+							.eq(nextIndex).fadeTo('fast', 1.0);
+					},
+					onPageTransitionOut:       function(callback) {
+						this.fadeTo('fast', 0.0, callback);
+					},
+					onPageTransitionIn:        function() {
+						this.fadeTo('fast', 1.0);
+					}
+				});
+			});
+		</script>
+	</body>
+</html>

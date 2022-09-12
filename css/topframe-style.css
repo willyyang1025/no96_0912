@@ -1,0 +1,211 @@
+﻿/* CSS Document - Author: Shaibal Mandal */
+
+
+body {
+	font-size: 14px;
+	margin: 0px;
+
+
+
+
+
+
+	padding-left: ;
+	background-color: #FFFFFF;
+	background-repeat: repeat-y;
+	width: 925px;
+}
+
+/* This is the page container  */
+#container {
+	width: 925px;
+	background-color: #FFFFFF;
+	height: 298px;
+}
+
+#container_ch {
+	width: 925px;
+	background-color: #FFFFFF;
+	height: 60px;
+}
+
+
+
+#A1_ch {
+	width: 204px;
+	height: 80px;
+	float: left;
+}
+
+/* For taming those leeeeeeetle arrows */
+img {
+    vertical-align: text-bottom;
+}
+
+/* Style-up those ugly default hyperlinks */
+a {
+	text-decoration: none;
+	padding: 0;
+	margin: 0;
+	color: #3D3D3D;
+}
+
+/* And their ugly hover states too */
+a:link {color: #3D3D3D; border-bottom: 0px solid #fff; background: transparent;}
+a:visited {color: #3D3D3D; border-bottom: 0px solid #fff; background: transparent;}
+a:hover {color: #488E48; border-bottom: 0px solid #fff; background: transparent;} 
+
+
+#header {
+	width: 925px;
+	background-color: #FFFFFF;
+	border-bottom-width: 0px;
+	border-bottom-style: dotted;
+	border-bottom-color: #000;
+	height: 298px;
+
+}
+
+
+
+#headerlogo {
+	background-color: #FFFFFF;
+	width:925px;
+	float: left;
+	height: 258px;
+	background-position: center;
+	
+}
+
+#headerslogan {
+	font-size: 11px;
+	color: #FFFFFF;
+	width: 340px;
+	background-color: #73bf45;
+	height: 20px;
+	float: left;
+	padding: 2px -20px 2px 20px;
+    font-weight: ;
+	text-align: left;
+	letter-spacing: 18px;
+	
+}
+
+
+#topbarmenu {
+	font-size: 14px;
+	background-color: #000;
+	float: left;
+	padding: 0px;
+	margin: 0px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #000;
+	left: 25px;
+	top: 140px;
+	width: 925px;
+	vertical-align: text-top;
+	border-top-width: 1px;
+	border-top-color: #FFF;
+	border-top-style: solid;
+	height: 40px;
+
+	}
+
+#topbarmenu_ch {
+	font-size: 14px;
+	background-color: #FFF;
+	float: left;
+	padding: 0px;
+	margin: 0px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #FFF;
+	left: 25px;
+	top: 140px;
+	width: 925px;
+	vertical-align: text-top;
+	border-top-width: 1px;
+	border-top-color: #FFF;
+	border-top-style: solid;
+	height: 80px;
+
+	}
+
+
+
+
+p span {
+	font-size:30px; 
+	float:left; 
+	padding-right:5px; 
+	font-family:Arial, MS Gothic, Helvetica, sans-serif;
+	color:#3D3D3D;
+	}
+
+
+#topmonth {
+	font-size: 12px;
+	background: #FFFFFF;
+	padding: 0px;
+
+
+
+
+
+    font-weight: ;
+	color: #3D3D3D;
+	text-align: right;
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+
+
+	#menu {
+	list-style: none;
+	position: relative;
+	width: 925px;
+	float: none;
+	text-align: center;
+	background-position: center;
+	padding-top: 35;
+	padding-right: 0;
+	padding-bottom: 0;
+	font-family: "微軟正黑體";
+	font-size: 14px;
+	top: 4px;
+	margin-top: 0;
+	margin-right: 0;
+	margin-bottom: 0;
+	margin-left: 0px;
+	padding-left: 200px;
+	}
+	#menu li {
+	margin: 0;
+	padding: 0;
+	float: left;
+	border-right: 0px solid #FFFFFFF;
+	text-align: center;
+	width: 80px;
+	}
+	#menu li a {
+	padding: 2px 0px 2px 10px;
+	display: block;
+	color: #000;
+	text-decoration: none;
+	}
+	
+#menu li a:link {
+	color: #000;
+	border-bottom: 0px solid #fff;
+	background: transparent;
+}
+#menu li a:visited {
+	color: #000;
+	border-bottom: 0px solid #fff;
+	background: transparent;
+}
+#menu li a:hover {
+	color: #488E48;
+	border-bottom: 0px solid #fff;
+} 

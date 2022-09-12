@@ -1,0 +1,400 @@
+<html>
+	<head>
+	<link rel="SHORTCUT ICON" href="images/compal-wbe-logo.ico"/>
+	<meta name="Generator" content="" />
+	<meta name="Author" content="haco 吳淑玲 hacodog@gmail.com" />
+    <meta name="copyright" content="本網頁著作所有">
+	<meta name="Keywords" content="仁寶園地" />
+	<meta name="Description" content="這是屬於仁寶人的園地" />
+	<title>仁寶園地家有寶貝slideshow | Galleriffic | Thumbnail rollover effects and slideshow crossfades</title>
+	
+		<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+
+		<link rel="stylesheet" href="css/basic.css" type="text/css" />
+		<!-- <link rel="stylesheet" href="css/galleriffic-2news.css" type="text/css" /> -->
+		<link rel="stylesheet" href="css/galleriffic-2baby.css" type="text/css" />
+		<script type="text/javascript" src="js/jquery-1.3.2.js"></script>
+		<script type="text/javascript" src="js/jquery.galleriffic.js"></script>
+		<script type="text/javascript" src="js/jquery.opacityrollover.js"></script>
+		<!-- We only want the thunbnails to display when javascript is disabled -->
+		<script type="text/javascript">
+			document.write('<style>.noscript { display: none; }</style>');
+		</script>
+	</head>
+<!--點小圖連結大圖-->
+	<SCRIPT LANGUAGE="JavaScript">
+<!--
+var NS = (navigator.appName == "Netscape") ? 1 : 0;
+var height = screen.height;
+var width = screen.width;
+var leftpos = 0;
+var toppos = 0;
+var myH = 0;
+var myW = 0;
+pic = new Image();
+
+function read(url) {
+  pic = new Image();
+  pic.src = url;
+  setTimeout("view()", 500);
+}
+
+function view() {
+  if (eval(pic).height) {
+    clearTimeout();
+
+    if (NS) {
+      myH = eval(pic).height;
+      myW = eval(pic).width;
+    } else {
+      myH = eval(pic).height + 20;
+      myW = eval(pic).width + 20;
+    }
+    leftpos = width / 2 - myW / 2;
+    toppos = height / 2 - myH / 2;
+
+    ViewWin=window.open("","WIN","width=" + myW + ",height=" + myH + ",left=" + leftpos + ",top=" + toppos + ",scrollbars=yes,resizable=yes,resize=yes");
+    ViewWin.document.open();
+    ViewWin.document.write("<HTML><HEAD><TITLE>view</TITLE></HEAD><BODY><CENTER>\n");
+    ViewWin.document.write("<A HREF=\"javascript:self.close()\;\"><IMG SRC='" + pic.src + "' BORDER=0></A>\n");
+    ViewWin.document.write("</CENTER></BODY></HTML>\n");
+    ViewWin.document.close();
+  } else { setTimeout("view()", 500); }
+}
+//-->
+</SCRIPT>
+<!--點小圖連結大圖結束-->
+
+	<body>
+		<div id="page">
+			<div id="container">
+ 
+				<!-- Start Advanced Gallery Html Containers -->
+				<div id="gallery" class="content">
+					<div id="controls" class="controls"></div>
+					<div class="slideshow-container">
+						<div id="loading" class="loader"></div>
+						<div id="slideshow" class="slideshow"></div>
+					</div>
+					<div id="caption" class="caption-container"></div>
+				</div>
+				<div id="thumbs" class="navigation">
+					<ul class="thumbs noscript">
+<!--圖片列表開始-->
+
+						<li>
+							<a class="thumb" name="leaf" href="slideshow/2-4/580/01.jpg" border="0" title="劉子翟">
+								<img src="slideshow/2-4/75/01.jpg" alt="劉子翟" />
+							</a>
+						  <div class="caption">
+								<div class="download"></div>
+								
+								<div class="image-title">
+								<div class="image-title-left">劉晉宇│</div>
+								<div class="image-title-name">硬體研發處 \ 硬體技術部</div>								
+								<div class="image-desc">
+								<div id="descbaby1a05">寶寶姓名</div>
+								<div id="descbaby02">劉子翟</div>
+                                <div id="descbaby1a05">與寶寶的關係</div>
+								<div id="descbaby02">父子</div>
+								<div id="descbaby1a05">寶寶性別</div>
+								<div id="descbaby02">男</div>
+								<div id="descbaby1a05">年　　齡</div>
+								<div id="descbaby02">11個月</div>								
+								<div id="descbaby1a05">照片描述</div>
+								<div id="descbaby02">被奪走的初吻</div>
+								</div>
+							</div>
+							</div>
+						</li> 
+                        
+                        <li>
+							<a class="thumb" name="bigleaf" href="slideshow/2-4/580/02.jpg" title="蔡宇洋">
+								<img src="slideshow/2-4/75/02.jpg" alt="蔡宇洋" />
+							</a>
+							<div class="caption">
+								<div class="download"></div>                                           
+								<div class="image-title">
+								<div class="image-title-left">蔡易達│</div>
+								<div class="image-title-name">先進產品處 \ 先進產品設計部</div>								
+								<div class="image-desc">
+								<div id="descbaby1a05">寶寶姓名</div>
+								<div id="descbaby02">蔡宇洋</div>
+                                <div id="descbaby1a05">與寶寶的關係</div>
+								<div id="descbaby02">父子</div>
+								<div id="descbaby1a05">寶寶性別</div>
+								<div id="descbaby02">男</div>
+								<div id="descbaby1a05">年　　齡</div>
+								<div id="descbaby02">2歲9個月</div>								
+								<div id="descbaby1a05">照片描述</div>
+								<div id="descbaby02">帶去麟山鼻海灘玩樂，帶著墨鏡的洋很開心，從照片裡可看到一家四口，其中包含我與家中老大在墨鏡裡的映射。</div>
+								</div>
+							</div>
+							</div>
+						</li>
+                          <!--
+						<li>
+							<a class="thumb" name="leaf" href="slideshow/2-4/580/03.jpg" border="0" title="土豆">
+								<img src="slideshow/2-4/75/03.jpg" alt="土豆" />
+							</a>
+						  <div class="caption">
+								<div class="download"></div>								
+								<div class="image-title">
+								<div class="image-title-left">鐘雁柔│</div>
+								<div class="image-title-name">SDBG人資暨服務處 \ 人資暨服務部</div>			  
+								<div class="image-desc">
+								<div id="descbaby1a05">寶寶姓名</div>
+								<div id="descbaby02">土豆</div>
+                                <div id="descbaby1a05">與寶寶的關係</div>
+								<div id="descbaby02">乾媽</div>
+								<div id="descbaby1a05">寶寶性別</div>
+								<div id="descbaby02">男</div>
+								<div id="descbaby1a05">年　　齡</div>
+								<div id="descbaby02">6個月</div>								
+								<div id="descbaby1a05">照片描述</div>
+								<div id="descbaby02">不能出國在家也能自己飛~~</div>
+								</div>
+							</div>
+							</div>
+						</li> 
+                     
+						<li>
+							<a class="thumb" name="drop" href="slideshow/2-4/580/04.jpg" title="林柏亨">
+								<img src="slideshow/2-4/75/04.jpg" alt="林柏亨" />
+							</a>
+							<div class="caption">
+								<div class="download"></div>
+								<div class="image-title">
+								<div class="image-title-left">林炳佑│</div>
+								<div class="image-title-name">硬體研發處 \ 硬體研發一部</div>								
+								<div class="image-desc">
+								<div id="descbaby1a05">寶寶姓名</div>
+								<div id="descbaby02">林柏亨</div>
+                                <div id="descbaby1a05">與寶寶的關係</div>
+								<div id="descbaby02">父子</div>
+								<div id="descbaby1a05">寶寶性別</div>
+								<div id="descbaby02">男</div>
+								<div id="descbaby1a05">年　　齡</div>
+								<div id="descbaby02">2個月</div>								
+								<div id="descbaby1a05">照片描述</div>
+								<div id="descbaby02">情人節到了，媽媽請我吃甜甜，祝大家有情人終成眷屬~</div>
+								</div>
+							</div>
+							</div>
+						</li>
+                        
+                        <li>
+							<a class="thumb" name="bigleaf" href="slideshow/2-4/580/05.jpg" title="咪尼">
+								<img src="slideshow/2-4/75/05.jpg" alt="咪尼" />
+							</a>
+							<div class="caption">
+								<div class="download"></div>
+								<div class="image-title">
+								<div class="image-title-left">陳思涵│</div>
+								<div class="image-title-name">通訊與基礎架構處 \ 資通服務部</div>								
+								<div class="image-desc">
+								<div id="descbaby1a05">寶寶姓名</div>
+								<div id="descbaby02">咪尼</div>
+                                <div id="descbaby1a05">與寶寶的關係</div>
+								<div id="descbaby02">乾媽</div>
+								<div id="descbaby1a05">寶寶性別</div>
+								<div id="descbaby02">女</div>
+								<div id="descbaby1a05">年　　齡</div>
+								<div id="descbaby02">2歲8個月</div>								
+								<div id="descbaby1a05">照片描述</div>
+								<div id="descbaby02">看著義大利麵發呆好可愛！米其林手臂一節一節的也好可愛！</div>
+								</div>
+							</div>
+							</div>
+						</li>
+                       
+                        <li>
+							<a class="thumb" name="bigleaf" href="slideshow/2-4/580/06.jpg" title="丸子">
+								<img src="slideshow/2-4/75/06.jpg" alt="丸子" />
+							</a>
+							<div class="caption">
+								<div class="download"></div>
+								<div class="image-title">
+								<div class="image-title-left">楊子慧│</div>
+								<div class="image-title-name">產品技術一處 \ 聲學品質部</div>								
+								<div class="image-desc">
+								<div id="descbaby1a05">寶寶姓名</div>
+								<div id="descbaby02">丸子</div>
+                                <div id="descbaby1a05">與寶寶的關係</div>
+								<div id="descbaby02">母女</div>
+								<div id="descbaby1a05">寶寶性別</div>
+								<div id="descbaby02">女</div>
+								<div id="descbaby1a05">年　　齡</div>
+								<div id="descbaby02">5個月</div>								
+								<div id="descbaby1a05">照片描述</div>
+								<div id="descbaby02">一對寶，每天家裡都好熱鬧！</div>
+								</div>
+							</div>
+							</div>
+						</li>
+                       
+                        <li>
+							<a class="thumb" name="bigleaf" href="slideshow/2-4/580/07.jpg" title="吳佑哲">
+								<img src="slideshow/2-4/75/07.jpg" alt="吳佑哲" />
+							</a>
+							<div class="caption">
+								<div class="download"></div>
+								<div class="image-title">
+								<div class="image-title-left">廖珮如│</div>
+								<div class="image-title-name">產品一處 \ 硬體一部</div>								
+								<div class="image-desc">
+								<div id="descbaby1a05">寶寶姓名</div>
+								<div id="descbaby02">吳佑哲</div>
+                                <div id="descbaby1a05">與寶寶的關係</div>
+								<div id="descbaby02">母子</div>
+								<div id="descbaby1a05">寶寶性別</div>
+								<div id="descbaby02">男</div>
+								<div id="descbaby1a05">年　　齡</div>
+								<div id="descbaby02">1歲</div>								
+								<div id="descbaby1a05">照片描述</div>
+								<div id="descbaby02">我可以爬得很快唷~</div>
+								</div>
+							</div>
+							</div>
+						</li>
+                        
+                        <li>
+							<a class="thumb" name="bigleaf" href="slideshow/2-4/580/08.jpg" title="劉子翟">
+								<img src="slideshow/2-4/75/08.jpg" alt="劉子翟" />
+							</a>
+							<div class="caption">
+								<div class="download"></div>
+								<div class="image-title">
+								<div class="image-title-left">劉晉宇│</div>
+								<div class="image-title-name">硬體研發處 \ 硬體技術部</div>								
+								<div class="image-desc">
+								<div id="descbaby1a05">寶寶姓名</div>
+								<div id="descbaby02">劉子翟</div>
+                                <div id="descbaby1a05">與寶寶的關係</div>
+								<div id="descbaby02">父子</div>
+								<div id="descbaby1a05">寶寶性別</div>
+								<div id="descbaby02">男</div>
+								<div id="descbaby1a05">年　　齡</div>
+								<div id="descbaby02">8個月</div>								
+								<div id="descbaby1a05">照片描述</div>
+								<div id="descbaby02">第一次理髮</div>
+								</div>
+							</div>
+							</div>
+						</li>
+                        
+                        <li>
+							<a class="thumb" name="bigleaf" href="slideshow/2-4/580/09.jpg" title="李嘉宸">
+								<img src="slideshow/2-4/75/09.jpg" alt="李嘉宸" />
+							</a>
+							<div class="caption">
+								<div class="download"></div>
+								<div class="image-title">
+								<div class="image-title-left">李中原│</div>
+								<div class="image-title-name">通訊與基礎架構處 \ 資通服務部</div>								
+								<div class="image-desc">
+								<div id="descbaby1a05">寶寶姓名</div>
+								<div id="descbaby02">李嘉宸</div>
+                                <div id="descbaby1a05">與寶寶的關係</div>
+								<div id="descbaby02">父子</div>
+								<div id="descbaby1a05">寶寶性別</div>
+								<div id="descbaby02">男</div>
+								<div id="descbaby1a05">年　　齡</div>
+								<div id="descbaby02">2歲</div>								
+								<div id="descbaby1a05">照片描述</div>
+								<div id="descbaby02">我要變型男</div>
+								</div>
+							</div>
+							</div>
+						</li>
+                        
+                        <li>
+							<a class="thumb" name="bigleaf" href="slideshow/2-4/580/580_2-4-10.jpg" title="張育傑">
+								<img src="slideshow/2-4/75/75_2-4-10.jpg" alt="張育傑" />
+							</a>
+							<div class="caption">
+								<div class="download"></div>
+								<div class="image-title">
+								<div class="image-title-left">羅友鴻│</div>
+								<div class="image-title-name">企業產品硬體工程處 \ 硬體設計二部</div>								
+								<div class="image-desc">
+								<div id="descbaby1a19">寶寶姓名</div>
+								<div id="descbaby2">張育傑</div>
+                                <div id="descbaby1a5">與寶寶的關係</div>
+								<div id="descbaby2">舅舅</div>
+								<div id="descbaby1a19">寶寶性別</div>
+								<div id="descbaby2">男</div>
+								<div id="descbaby1a19">年　　齡</div>
+								<div id="descbaby2">11個月</div>								
+								<div id="descbaby1a19">照片描述</div>
+								<div id="descbaby2">我是張育傑，爸媽都叫我小名「比比」，我喜歡到處探索新事物，也喜歡給爸比媽咪揹揹出去玩，開心的時候我會笑笑，小酒窩就出來了。最近我在練習走路，我會努力練習，就能跟爸比媽咪手牽手去更多地方玩樂。</div>
+								</div>
+							</div>
+							</div>
+						</li>
+                        -->
+<dt></dt><!--圖片列表結束-->
+ 
+					</ul>
+				</div>
+				<div style="clear: both;"></div>
+			</div>
+		</div>
+
+		<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				// We only want these styles applied when javascript is enabled
+				$('div.navigation').css({'width' : '273px', 'float' : 'right'});
+				$('div.content').css('display', 'block');
+ 
+				// Initially set opacity on thumbs and add
+				// additional styling for hover effect on thumbs
+				var onMouseOutOpacity = 0.67;
+				$('#thumbs ul.thumbs li').opacityrollover({
+					mouseOutOpacity:   onMouseOutOpacity,
+					mouseOverOpacity:  1.0,
+					fadeSpeed:         'fast',
+					exemptionSelector: '.selected'
+				});
+				
+				// Initialize Advanced Galleriffic Gallery
+				var gallery = $('#thumbs').galleriffic({
+					delay:                     2500,// 
+					numThumbs:                 18,// 
+					preloadAhead:              10,// 
+					enableTopPager:            true,
+					enableBottomPager:         true,
+					maxPagesToShow:            7,
+					imageContainerSel:         '#slideshow',// 
+					controlsContainerSel:      '#controls',// The CSS selector for the element within which the slideshow controls should be rendered
+					captionContainerSel:       '#caption',// The CSS selector for the element within which the captions should be rendered
+					loadingContainerSel:       '#loading',// The CSS selector for the element within which should be shown when an image is loading
+					renderSSControls:          true,// 
+					renderNavControls:         true,// 
+					playLinkText:              '自動播放',
+					pauseLinkText:             '暫停播放',
+					prevLinkText:              '&lsaquo; 上一張',
+					nextLinkText:              '下一張 &rsaquo;',
+					nextPageLinkText:          '&rsaquo;',
+					prevPageLinkText:          '&lsaquo;',
+					enableHistory:             false,
+					autoStart:                 false,// 
+					syncTransitions:           true,// 
+					defaultTransitionDuration: 900,
+					onSlideChange:             function(prevIndex, nextIndex) {
+						// 'this' refers to the gallery, which is an extension of $('#thumbs')
+						this.find('ul.thumbs').children()
+							.eq(prevIndex).fadeTo('fast', onMouseOutOpacity).end()
+							.eq(nextIndex).fadeTo('fast', 1.0);
+					},
+					onPageTransitionOut:       function(callback) {
+						this.fadeTo('fast', 0.0, callback);
+					},
+					onPageTransitionIn:        function() {
+						this.fadeTo('fast', 1.0);
+					}
+				});
+			});
+		</script>
+	</body>
+</html>

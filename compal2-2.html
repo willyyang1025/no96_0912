@@ -1,0 +1,79 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link href="css/3-1-style.css" rel="stylesheet" type="text/css">
+<link rel="shortcut icon" href="images/compal-wbe-logo.ico">
+<meta name="Generator" content="">
+<meta name="Author" content="haco 吳淑玲 hacodog@gmail.com">
+<meta name="copyright" content="本網頁著作所有">
+<meta name="Keywords" content="仁寶園地">
+<meta name="Description" content="這是屬於仁寶人的園地">
+<title>仁寶園地新人介紹</title>
+<!--[if gte IE 5]>
+<style>
+#container {
+  margin-left: -401px;
+}
+</style>
+<![endif]-->
+ <style type="text/css">
+<!--
+body {
+	background-image: url(images/bg_2.gif);
+	background-repeat: repeat-x;
+	background-position:top;
+	background-color: #FFF;
+}
+-->
+</style>
+</head>
+
+<body>
+<script language="JavaScript" type="text/javascript"> 
+var timer;
+function combo(id,num,listname,itemname,imagesname){
+	if(timer) clearTimeout(timer);
+	for(i=0;i<num;i++){
+		if (i==id){
+			document.getElementById(itemname+id).style.display="";
+			document.getElementById(listname+id).style.fontWeight="bold";
+			document.getElementById(listname+id).style.backgroundColor="#FFFFFF";
+		}else{
+			document.getElementById(itemname+i).style.display="none";
+			document.getElementById(listname+i).style.fontWeight="";
+			document.getElementById(listname+i).style.backgroundColor="";
+		}
+	}
+}
+ 
+function Hide(id,num,listname,itemname,imagesname){
+	document.getElementById(itemname+id).style.display="none";
+	document.getElementById(listname+id).style.fontWeight="";
+	document.getElementById(listname+id).style.backgroundColor="";
+}
+ 
+function comboHide(id,num,listname,itemname,imagesname){
+	timer=setTimeout("Hide("+id+","+num+",'"+listname+"','"+itemname+"','"+imagesname+"')",9000);
+}
+</script>
+
+<!-- Master Container: Centered and 900px wide -->
+<div id="container">
+    <!-- The top bar -->
+          
+    <div id="header">
+      <iframe src="topframe.html" width="925" marginwidth="0" marginheight="0" scrolling="No" frameborder="0" align="center"></iframe>
+    </div>
+<div id="topbanner">新￭人￭介￭紹</div> 
+<div id="content2">
+  <iframe src="news-slideshow.html" width="875" height="1000" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" align="center"></iframe>
+</div>
+    <!-- end #content -->
+ <!-- <div id="footer"></div>
+     end #footer -->
+</div>
+  <!-- end #container -->
+  </body>
+</html>

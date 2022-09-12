@@ -1,0 +1,502 @@
+﻿/* CSS Document - Author: Shaibal Mandal */
+
+/* 整體設定、背景、段落、字體*/
+body {
+	font-size: 14px;
+	font-family: 微軟正黑體, 標楷體, 細明體, Arial, MS Gothic, Helvetica, sans-serif;
+	margin: 0px;
+	padding-left: 47%;
+	position: absolute;
+	background: #f2f2f3 url() center repeat-y;
+	table-layout: fixed; 
+	word-wrap: break-word; 
+	word-break: normal; 
+	text-align:justify; 
+	text-justify:inter-ideograph;
+}
+
+/* This is the page container  */
+#container {
+	width: 925px;
+	margin-left: -450px;
+	background-color: #FFFFFF;
+	height: auto;
+}
+
+#content {
+	width: 875px;
+	height: auto;
+	background-color: #FFFFFF;
+	border-bottom-width: 0px;
+	border-bottom-style: dotted;
+	border-bottom-color: #000;
+	float: left;
+	margin-top: 0px;
+	margin-right: 25px;
+	margin-bottom: 25px;
+	margin-left: 25px;
+	padding-top: 40px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+               }
+			   
+/* For taming those leeeeeeetle arrows */
+img {
+    vertical-align: text-bottom;
+	border-width: 0px;
+}
+
+/* Style-up those ugly default hyperlinks */
+a {
+	text-decoration: none;
+	padding: 0;
+	margin: 0;
+	color: #3D3D3D;
+}
+
+/* And their ugly hover states too */
+a:link {color: #3D3D3D; border-bottom: 0px solid #fff; background: transparent;}
+a:visited {color: #3D3D3D; border-bottom: 0px solid #fff; background: transparent;}
+a:hover {color: #488E48; border-bottom: 0px solid #fff; background: transparent;} 
+
+
+#topbanner{
+	width: 925px;
+	height: 15px;
+	background:#FFFFFF;
+	font-size: 12px;
+
+
+
+    font-weight: ;
+	letter-spacing: 5px;
+	color: #3D3D3D;
+	text-align: right;
+	padding-top: 10px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+
+#header {
+	width: 925px;
+	height: 60px;
+	background:#FFFFFF;
+}
+
+
+#compal-body {
+	background-color: #FFFFFF;
+	width: 875px;	
+	height: auto;
+	float: left;
+	padding: 25px 0px 25px 00px;
+	margin: 0px 0px 0px 0px;
+	vertical-align: text-top;
+}
+
+
+#company {
+	width: 875px;
+	height: auto;
+	padding: 25px 0px 25px 0px;
+	background-color: #FFFFFF;
+	border-bottom-width: 1px;
+	border-bottom-style: dotted ;
+	border-bottom-color: #000;
+	float: left;
+}
+
+
+#company2 {
+	width: 875px;
+	height: auto;
+	padding: 25px  0px 25px 0px;
+	background-color: #FFFFFF;
+	border-bottom-width: 0px;
+	border-bottom-style: dotted ;
+	border-bottom-color: #000;
+	float: left;
+}
+
+
+
+
+#mainEntryTitle {
+	width: 875px;
+	font-size: 15px;
+	font-weight:;
+	background-color: #FFFFFF;
+	height: 40px;
+	padding: 25px  0px 0px 0px;	
+	margin: 0px 0px 0px 0px;
+}
+
+
+#mainEntryTitleleft {
+	width: 425px;
+	font-size: 20px;
+	font-weight:bold;
+	background-color: #FFFFFF;
+	height: 40px;
+	padding: 0px  0px 0px 0px;	
+	margin: 0px 0px 0px 0px;
+	float: left;
+	color:#00A300;
+}
+
+
+#mainEntryTitleright {
+	width: 425px;
+	font-size: 12px;
+	font-weight:;
+	text-align:right ;
+	background-color: #FFFFFF;
+	height: 40px;
+	padding: 0px  0px 0px 0px;	
+	margin: 0px 0px 0px 0px;
+	float: right;
+}
+
+#A2 {
+	background-color: #FFFFFF;
+	width: 650px;	
+	height: 150px;
+	float: left;
+	padding: 0px 0px 0px 20px;
+	margin: 0px 0px 0px 0px;
+	vertical-align: text-top;
+}
+
+.A2text {
+	line-height:25px;
+}
+
+.A2text_1 {
+	line-height:24px;
+}
+.A2text_02 {
+	line-height:20px;
+	word-wrap: break-word;
+	word-break: normal;
+	text-justify:inter-ideograph;
+	padding-top: 20px;
+	padding-right: 3px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	color: #090;
+	float: none;
+	font-size: 12px;
+}
+
+p span {
+	font-size : 320%; 
+ 	float:left; 
+	margin-right: 3px;
+	font-family:Arial, MS Gothic, Helvetica, sans-serif;
+	color:#3D3D3D;
+	line-height: 100%;
+	}
+
+
+#imagespaceright {
+	background-color: #FFFFFF;
+	width: 225px;
+	height: 310px;
+	float: right;
+	padding: 0px 0px 0px 0px;
+	margin:  0px 0px 0px 0px;
+}
+
+#imagespaceleft {
+	background-color: #FFFFFF;
+	width: 625px;
+	height: 310px;
+	float: left;
+	padding: 0px 0px 0px 0px;
+	margin:  0px 0px 0px 0px;	
+}
+
+
+#columnsTitle {
+	width: 275px;
+	font-size: 15px;
+	font-weight:bold;
+	background-color: #FFFFFF;
+	height: 25px;
+	padding: 0px  0px 0px 0px;	
+	margin: 0px 0px 0px 0px;
+}
+
+
+#columnsleft {
+	background-color: #FFFFFF;
+	width: 275px;
+	height: auto;
+	float: left;
+	padding: 0px 0px 0px 0px;
+	margin:  0px 0px 0px 0px;
+}
+
+#columnsright {
+	background-color: #FFFFFF;
+	width: 275px;
+	height: auto;
+	float:  left;
+	padding: 0px 0px 0px 0px;
+	margin:  0px 0px 0px 25px;
+}
+
+#columnsleft_2 {
+	background-color: #FFFFFF;
+	width: 425px;
+	height: auto;
+	float: left;
+	margin:  0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 80px;
+}
+
+#columnsright_2 {
+	background-color: #FFFFFF;
+	width: 275px;
+	height: auto;
+	float:  left;
+	padding: 0px 0px 0px 0px;
+	margin:  0px 0px 0px 25px;
+}
+
+
+#images {
+	background-color: #FFFFFF;
+	width: 275px;
+	height: 206px;
+	float: left;
+	padding: 0px  0px 0px 0px;
+	margin:  0px  0px 0px 0px;	
+}
+
+
+#columnscopy {
+	background-color: #FFFFFF;
+	width: 275px;	
+	height: auto;
+	float: left;
+	padding: 25px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
+	vertical-align: text-top;
+}
+#columnscopy2 {
+	background-color: #FFFFFF;
+	width: 210px;	
+	height: auto;
+	float: left;
+	padding: 25px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
+	vertical-align: text-top;
+}
+#columnscopy3 {
+	background-color: #FFFFFF;
+	width: 200px;
+	height: auto;
+	float: left;
+	padding: 0px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
+	vertical-align: text-top;
+}
+#columnscopy4 {
+	background-color: #FFFFFF;
+	width: 380px;
+	height: auto;
+	float: right;
+	vertical-align: text-top;
+}
+
+
+#footer {
+	width: 925px;
+	height: 25px;
+	background: url(../images/footerbg_tit.jpg) ;
+	color: #FFFFFF;
+	text-align: center;
+	vertical-align: middle;
+	clear: both;
+	clear: both;
+	padding: 0px 0px 0px 0px;
+	margin:  0px 0px 0px 0px;
+}
+#footer a:link {color: #FFFFFF; border-bottom: 0px solid #FFFFFF; background: transparent;} 
+#footer a:visited {color: #FFFFFF; border-bottom: 0px solid #FFFFFF; background: transparent;}
+#footer a:hover {color: #666666; border-bottom: 0px solid #FFFFFF; background: transparent;}
+
+/* 以下為首頁之CSS 2014/3/22新增 用於一列兩欄之選單 */
+
+#Informationleft {
+	background-color: #FFFFFF;
+	width: 425px;
+	float: left;
+	margin:  0px;
+	border-bottom-width: 0px;
+	border-bottom-style: dotted;
+	border-bottom-color: #000;
+	height: auto;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+#Informationleft_01 {
+	background-color: #FFFFFF;
+	width: 875px;
+	float: left;
+	margin:  0px;
+	border-bottom-width: 0px;
+	border-bottom-style: dotted;
+	border-bottom-color: #000;
+	height: auto;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+
+#companyTitle2 {
+	width: 200px;
+	font-size: 15px;
+	font-weight:bold;
+	background-color: #FFFFFF;
+	height: 25px;
+	margin: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+#companyTitle3 {
+	width: 400px;
+	font-size: 15px;
+	font-weight:bold;
+	background-color: #FFFFFF;
+	height: 25px;
+	margin: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+
+#Informationright {
+	background-color: #FFFFFF;
+	width: 425px;
+	height: 175px;
+	float: right;
+	padding: 0px;
+	margin:  0px;
+	border-bottom-width: 0px;
+	border-bottom-style: dotted;
+	border-bottom-color: #000;
+}
+#A1 {
+	background-color: #FFFFFF;
+	width: 200px;
+	height: 150px;
+	float: left;
+	padding: 0px 10px 0px 0px;
+	margin:  0px  0px 0px 0px;
+}
+
+
+#A1_1 {
+	background-color: #FFFFFF;
+	width: 200px;
+	height: 150px;
+	float: left;
+	margin:  0px;
+	padding-top: 0px;
+	padding-right: 10px;
+	padding-bottom: 0px;
+	padding-left: 5px;
+}
+
+#A1_2 {
+	background-color: #FFFFFF;
+	width: 200px;
+	height: 200px;
+	float: left;
+	margin:  0px;
+	padding-top: 0px;
+	padding-right: 10px;
+	padding-bottom: 0px;
+	padding-left: 5px;
+}
+#A1_3 {
+	background-color: #FFFFFF;
+	width: 450px;
+	height: 200px;
+	float: left;
+	margin:  0px;
+	padding-top: 0px;
+	padding-right: 10px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+
+#info_t {
+	width: 0px;
+	padding: 0px;
+	margin:  0px;
+	background-image: url(../images/info3_t.gif);
+	background-repeat: no-repeat;
+	height: 3px;
+}
+#info_2t {
+	width: 0px;
+	padding: 0px;
+	margin:  0px;
+	background-image: url(../images/info3_t.gif);
+	background-repeat: no-repeat;
+	height: 3px;
+}
+
+#info_h {
+	width: 425px;
+	margin:  0px;
+	background-image: url(../images/info2_h.gif);
+	background-repeat: repeat-y;
+	padding-top: 0px;
+	padding-right: 5px;
+	padding-bottom: 0px;
+	padding-left: 5px;
+}
+#info_2h {
+	width: 870px;
+	margin:  0px;
+	background-image: url(../images/info3_h.gif);
+	background-repeat: repeat-y;
+	padding-top: 0px;
+	padding-right: 5px;
+	padding-bottom: 0px;
+	padding-left: 5px;
+}
+
+
+#info_b {
+	width: 425px;
+	padding: 0px;
+	margin:  0px;
+	background-image: url(../images/info2_b.gif);
+	background-repeat: no-repeat;
+	height: 3px;
+}
+#info_2b {
+	width: 870px;
+	padding: 0px;
+	margin:  0px;
+	background-image: url(../images/info3_b.gif);
+	background-repeat: no-repeat;
+	height: 3px;
+}
+/* 以上為首頁之CSS 2014/3/22新增 用於一列兩欄之選單*/

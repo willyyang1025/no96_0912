@@ -1,0 +1,197 @@
+<html lang="zh-tw">
+<head>
+<link rel="SHORTCUT ICON" href="images/compal-wbe-logo.ico"/>
+	<meta name="Generator" content="" />
+	<meta name="Author" content="haco 吳淑玲 hacodog@gmail.com" />
+    <meta name="copyright" content="本網頁著作所有">
+	<meta name="Keywords" content="仁寶園地" />
+	<meta name="Description" content="這是屬於仁寶人的園地" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>仁寶園地首頁馬賽克組合圖</title>
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<script type="text/javascript" src="js/jquery-latest.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="css/topimages-style.css" />
+
+<script type="text/javascript"> 
+	// 背景區塊的透明度	
+	var _opacity = .6;
+	$(function(){
+		// 把每一個 abgne-images-slide 取出做處理
+		$('.abgne-images-slide').each(function(){
+			// 取得標題及說明描述的高度
+			var $this = $(this), 
+				$title = $this.find('.title'), 
+				_titleHeight = $title.outerHeight(true),
+				$desc = $this.find('.desc'),
+				_descHeight = $desc.outerHeight(true),
+				_speed = 400;
+			
+			// 設定 $desc 的高度為 0 並顯示
+			// 接著插入一個當做背景用的區塊
+			$desc.css({
+				height: 0,
+				display: 'block'
+			}).append($('<div></div>').css({
+				height: _descHeight,
+				opacity: _opacity
+			}).addClass('maskCss')).find('p').css('position', 'absolute');
+			
+			// 插入一個當做背景用的區塊
+			$title.append($('<div></div>').css({
+				height: _titleHeight,
+				opacity: _opacity
+			}).addClass('maskCss'));
+			
+			// 當滑鼠移到區塊上時
+			$this.hover(function(){
+				// 改變 $desc 的高度為原本高度
+				$desc.stop().animate({
+					height: _descHeight
+				}, _speed);
+			}, function(){
+				// 改變 $desc 的高度為 0
+				$desc.stop().animate({
+					height: 0
+				}, _speed);
+			});
+		});
+	});
+</script>
+</head>
+ 
+<body>
+<div id="container">
+  <div class="abgne-images-slide abgne_tip_gallery_block2"> <a href="#"><img src="images/topimages/top-images01.jpg" title="" alt="" /></a>
+    <div class="desc">
+      <p><a href="compal3.html" target="_top">影像空間<br>
+      細雨紛紛 橋燈 緩慢點起 指引城市中迷途旅人 ...</a></p>
+    </div>
+  </div>
+  <div class="abgne-images-slide abgne_tip_gallery_block2"> <a href="#"><img src="images/topimages/top-images02.jpg" title="" alt="" /></a>
+    <div class="desc">
+      <p><a href="compal3.html" target="_top">影像空間<br>
+      細雨紛紛 橋燈 緩慢點起 指引城市中迷途旅人 ...</a></p>
+    </div>
+  </div>
+  <div class="abgne-images-slide abgne_tip_gallery_block2"> <a href="#"><img src="images/topimages/top-images03.jpg" title="" alt="" /></a>
+    <div class="desc">
+      <p><a href="compal2-1-2.html" target="_top">公司活動<br>
+      讓我們用照片來回顧5-6月的慶生會的熱鬧畫面。</a></p>
+    </div>
+  </div>
+  <div class="abgne-images-slide abgne_tip_gallery_block2"><a href="#"><img src="images/topimages/top-images04.jpg" title="" alt="" /></a>
+  <div class="desc">
+      <p><a href="compal2-1-4.html" target="_top">公司活動<br>
+      炎炎夏日，又來到仁寶學堂開講日，在6月20日週三下午，我們邀請到 ...</a></p>
+		</div>
+	</div>
+<div class="abgne-images-slide abgne_tip_gallery_block2"> <a href="#"><img src="images/topimages/top-images05.jpg" title="" alt="" /></a>
+  <div class="desc">
+    <p><a href="compal2-1-5.html" target="_top">公司活動<br>
+    在人生的旅途中，總會遇到各種各樣的挫折，我們不僅要有勇氣，更要 ...</a></p>
+  </div>
+</div>
+<div class="abgne-images-slide abgne_tip_gallery_block2"> <a href="#"><img src="images/topimages/top-images06.jpg" title="" alt="" /></a>
+  <div class="desc">
+    <p><a href="compal3.html" target="_top">影像空間<br>
+    夜晚，船隻一一入港停靠 ...</a></p>
+  </div>
+</div>
+<div class="abgne-images-slide abgne_tip_gallery_block2"> <a href="#"><img src="images/topimages/top-images07.jpg" title="" alt="" /></a>
+<div class="desc">
+	 <p><a href="compal3.html" target="_top">影像空間<br>
+   夜晚，船隻一一入港停靠 ...</a></p>
+		</div>
+	</div>
+<div class="abgne-images-slide abgne_tip_gallery_block2"> <a href="#"><img src="images/topimages/top-images08.jpg" title="" alt="" /></a>
+  <div class="desc">
+    <p><a href="compal3.html" target="_top">影像空間<br>
+    為冰島的著名瀑布，又稱上帝瀑布，位於冰島北部，水質清 ...</a></p>
+  </div>
+</div>
+<div class="abgne-images-slide abgne_tip_gallery_block2"> <a href="#"><img src="images/topimages/top-images09.jpg" title="" alt="" /></a>
+    <div class="desc">
+    <p><a href="compal3.html" target="_top">影像空間<br>
+    為冰島的著名瀑布，又稱上帝瀑布，位於冰島北部，水質清 ...</a></p>
+  </div>
+</div>
+<div class="abgne-images-slide abgne_tip_gallery_block2"> <a href="#"><img src="images/topimages/top-images10.jpg" title="" alt="" /></a>
+  <div class="desc">
+	<p><a href="compal2-1-1.html" target="_top">公司活動<br>
+    這是Site HR第一次舉辦親子類型的講座，沒想到獲得同仁廣泛的迴 ...</a></p>
+		</div>
+	</div>  
+<div class="abgne-images-slide abgne_tip_gallery_block2"> <a href="#"><img src="images/topimages/top-images11.jpg" title="" alt="" /></a>
+  <div class="desc">
+	<p><a href="compal2-4.html" target="_top">家有寶貝<br>
+    小寶貝最近愛上疊高高的遊戲，連玩具車也要疊高高，疊完之後還會 ...</a></p>
+  </div>
+</div>
+<div class="abgne-images-slide abgne_tip_gallery_block2"> <a href="#"><img src="images/topimages/top-images12.jpg" title="" alt="" /></a>
+    <div class="desc">
+    <p><a href="compal2-4.html" target="_top">家有寶貝<br>
+    每天早上一張開眼睛見到爸爸媽媽都非常開心，希望你可以永遠保持 ...</a></p>
+    </div>
+  </div>
+<div class="abgne-images-slide abgne_tip_gallery_block2"> <a href="#"><img src="images/topimages/top-images13.jpg" title="" alt="" /></a>
+  <div class="desc">
+    <p><a href="compal3.html" target="_top">影像空間<br>
+    夜晚，船隻一一入港停靠 ...</a></p>
+  </div>
+</div>
+<div class="abgne-images-slide abgne_tip_gallery_block2"> <a href="#"><img src="images/topimages/top-images14.jpg" title="" alt="" /></a>
+  <div class="desc">
+			<p><a href="compal3.html" target="_top">影像空間<br>
+    夜晚，船隻一一入港停靠 ...</a></p>
+		</div>
+	</div>
+<div class="abgne-images-slide abgne_tip_gallery_block2"> <a href="#"><img src="images/topimages/top-images15.jpg" title="" alt="" /></a>
+  <div class="desc">
+    <p><a href="compal3.html" target="_top">影像空間<br>
+    為冰島的著名瀑布，又稱上帝瀑布，位於冰島北部，水質清 ...</a></p>
+  </div>
+</div>
+<div class="abgne-images-slide abgne_tip_gallery_block2"><a href="#"><img src="images/topimages/top-images16.jpg" title="" alt="" /></a>
+  <div class="desc">
+    <p><a href="compal3.html" target="_top">影像空間<br>
+    為冰島的著名瀑布，又稱上帝瀑布，位於冰島北部，水質清 ...</a></p>
+  </div>
+</div>
+<div class="abgne-images-slide abgne_tip_gallery_block2"> <a href="#"><img src="images/topimages/top-images17.jpg" title="" alt="" /></a>
+  <div class="desc">
+    <p><a href="compal2-4.html" target="_top">家有寶貝<br>
+    謝謝妳來當我的寶貝~看到妳的笑容一切都值得了~馬麻希望妳健康快 ...</a></p>
+  </div>
+</div>
+<div class="abgne-images-slide abgne_tip_gallery_block2"> <a href="#"><img src="images/topimages/top-images18.jpg" title="" alt="" /></a>
+<div class="desc">
+            <p><a href="compal2-4.html" target="_top">家有寶貝<br>
+    當時正在餵飯，他吃飯不太認真，常常邊玩邊吃，正巧咧嘴笑 ...</a></p>
+		</div>
+	</div>
+
+<div class="abgne-images-slide abgne_tip_gallery_block2"> <a href="#"><img src="images/topimages/top-images19.jpg" title="" alt="" /></a>
+		<div class="desc">
+        <p><a href="compal2-4.html" target="_top">家有寶貝<br>
+        女兒真的是爸爸上輩子的情人，為了她下定決心要離開待了十年的 ...</a></p>
+		</div>
+	</div>
+
+<div class="abgne-images-slide abgne_tip_gallery_block2"><a href="#"><img src="images/topimages/top-images20.jpg" title="" alt="" /></a>
+		<div class="desc">
+        <p><a href="compal3.html" target="_top">影像空間<br>
+        第一次的拜訪，難掩內心的感動，祖先們的智慧，情人間的浪漫 ...</a></p>
+		</div>
+	</div>
+
+<div class="abgne-images-slide abgne_tip_gallery_block2"><a href="#"><img src="images/topimages/top-images21.jpg" title="" alt="" /></a>
+		<div class="desc">
+			<p><a href="compal3.html" target="_top">影像空間<br>
+            第一次的拜訪，難掩內心的感動，祖先們的智慧，情人間的浪漫 ...</a></p>
+		</div>
+   </div>
+</div>
+</body>
+</html>
